@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lilin/CyberSecurity/C/RC4_decryption.h
+string
+-
+iostream
+-
+fstream
+-
+
+/home/lilin/CyberSecurity/C/RC4_encryption.h
+time.h
+-
+xmemory
+-
+string
+-
+iostream
+-
+fstream
+-
+vector
+-
+
+/home/lilin/CyberSecurity/C/main.cpp
+iostream
+-
+RC4_encryption.h
+/home/lilin/CyberSecurity/C/RC4_encryption.h
+RC4_decryption.h
+/home/lilin/CyberSecurity/C/RC4_decryption.h
+
